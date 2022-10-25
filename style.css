@@ -1,0 +1,38 @@
+button{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    position: fixed;
+    padding:lrem;
+    top: 20px;
+    right: 20px;
+    transition:transform 0.3s ease-in-out;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rebeccapurple;
+    transform: translateX(100%);
+
+}
+nav.active{
+    transform: translateX(0);
+}
+btn.active{
+    transform: translateX(-100%);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+nav ul li{
+    padding: 1rem 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
